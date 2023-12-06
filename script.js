@@ -21,7 +21,7 @@ function addTarefa() {
           ${textTask} <button class="excluir">\u00D7</button> <button class="finalizar">\&#10004</button>
       `;
         lista.appendChild(newTask);
-        tarefaInput.value = "";
+        tarefaDeEntrada.value = "";
 
     }
 }
@@ -49,3 +49,5 @@ finalizadas.addEventListener("click", function (e) {
         e.target.parentElement.remove()
     }
 });
+
+/*fim*/
