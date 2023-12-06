@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+#adicionar {
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  background: none;
+  transition: 0.3s;
+  margin-bottom: -10px;
+}
+
+.finalizar {
+  background-color: transparent;
+  border: none;
+  padding: 6px 10px 6px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.finalizar:hover {
+  background-color: #41a16c;
+  color: #ffff;
+}
+
+.excluir {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #fc4b15; 
+  cursor: pointer;
+  padding: 6px 10px 6px 10px;
+  margin-left: 3px;
+}
+
+.excluir:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+
+#titulo {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  color: #800d0d;
+  line-height: 32px;
+}
+
+.lista-tarefas {
+  border: 1px solid #800d0d;;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f6f6f6;
+}
+
+#tarefa {
+  background-color: #f2f2f2;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 50px;
+  border: #740a0a 1px solid;
+  width: 80%;
+  padding-left: 5%;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+p {
+  text-align: center;
+  font-size: 23px;
+}
+
+h2 {
+  color: #800d0d;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 19px;  
+  text-align: center;
+ }
+ 
+
+ footer {
+  width: 100%;
+  margin-top: 10vh;
+  border-top: 1px solid #790c0c;
+  height: 16vh;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ }
+
+ .bts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ }
+
+ .divbtn {
+  width: 50px;
+  height: 50px;
+  background-color:#b43030;
+  border: 5px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+ }
+
+ h4 {
+  font-size: 50px;
+  font-weight: 800;
+ }
+
+ h3 {
+  text-decoration: none;
+  font-size: 28px;
+  color: #800d0d;
+ }
